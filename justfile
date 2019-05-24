@@ -12,6 +12,8 @@ build:
     @mkdir -p dist
     @rm dist/*
     npm run build
+    sed -i -e 's#/src#./src#g' dist/index.html
+    find dist/*.js -type f -exec sed -i 's#/src#./src#g' {} \;
 
 deploy: build
     npx gh-pages -d dist
