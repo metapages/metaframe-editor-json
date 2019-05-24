@@ -1,0 +1,18 @@
+{
+	"version": "0.2",
+	"metadata": {
+		"version": "1",
+		"title": "JSON editor",
+		"author": "Dion Amago Whitehead"
+	},
+	"inputs": {
+		"json": {
+			"type": "application/json"
+        	}
+	},
+	"outputs": {
+		"json": {
+			"type": "application/json"
+		}
+	}
+}
