@@ -50,4 +50,4 @@ module.exports={version:"0.2",metadata:{version:"1",title:"JSON editor",author:"
 },{"@babel/runtime/regenerator":"8m4e","@babel/runtime/helpers/asyncToGenerator":"2fws","@babel/runtime/helpers/classCallCheck":"ZBnv","@babel/runtime/helpers/createClass":"No+o","@babel/runtime/helpers/possibleConstructorReturn":"GF/C","@babel/runtime/helpers/getPrototypeOf":"9WQg","@babel/runtime/helpers/inherits":"9qng","react":"HdMw","react-json-view":"r7W9","metaframe":"Ut/6","../static/metaframe.json":"GX0d"}],"H99C":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"HdMw","react-dom":"X9zx","./App":"FLHj"}]},{},["H99C"], null)
-//# sourceMappingURL=/src.b3552847.js.map
+//# sourceMappingURL=./src.b3552847.js.map
