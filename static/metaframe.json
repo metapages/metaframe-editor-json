@@ -1,5 +1,5 @@
 {
-	"version": "0.2",
+	"version": "0.3",
 	"metadata": {
 		"version": "1",
 		"title": "JSON editor",
@@ -8,11 +8,17 @@
 	"inputs": {
 		"json": {
 			"type": "application/json"
-        	}
+		},
+		"metapage/definition": {
+			"type": "metapage/definition"
+		}
 	},
 	"outputs": {
 		"json": {
 			"type": "application/json"
+		},
+		"metapage/definition": {
+			"type": "metapage/definition"
 		}
 	}
 }

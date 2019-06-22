@@ -11,7 +11,6 @@ export default class App extends React.Component {
     this.setState({metaframe});
 
     metaframe.onInputs((inputs) => {
-      console.log('editor inputs', inputs);
       Object.keys(inputs).forEach((inputKey) => {
         let val = inputs[inputKey];
         if (typeof(val) === 'string') {
@@ -21,6 +20,10 @@ export default class App extends React.Component {
       })
     });
     await metaframe.ready;
+
+    if (metaframe.plugin) {
+      this.setState({plugin:true});
+    }
   }
 
   componentDidMount() {
@@ -60,7 +63,6 @@ export default class App extends React.Component {
 
   render() {
     const json = (this.state && this.state.json) || metaFrameJson;
-    // const json = metaFrameJson;
     return (
       <div className="App">
         <ReactJson
