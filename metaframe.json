@@ -1,18 +1,24 @@
 {
-	"version": "0.2",
+	"version": "0.3",
 	"metadata": {
 		"version": "1",
-		"title": "JSON editor",
+		"title": "JSON editor\nMetapage plugin (definition editor)",
 		"author": "Dion Amago Whitehead"
 	},
 	"inputs": {
 		"json": {
 			"type": "application/json"
-        	}
+		},
+		"metapage/definition": {
+			"type": "metapage/definition"
+		}
 	},
 	"outputs": {
 		"json": {
 			"type": "application/json"
+		},
+		"metapage/definition": {
+			"type": "metapage/definition"
 		}
 	}
 }
